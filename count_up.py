@@ -13,6 +13,14 @@ def count_up(start, stop):
     """
 
     # YOUR CODE HERE
+    # while start <= stop:
+        # print(list(range(start, stop + 1)))
+        # break
+    # works but doesnt print outside of a list
 
+    while start <= stop: 
+        start = start + 1 
+        print(start)
 
-count_up(5, 7)        
+count_up(5, 7) 
+
